@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+h1{
+  text-align: center
+}
+p#l1{
+    text-align: right
+}
+p#l2{
+    text-align: right;
+    font-size: 70%
+}
+span#l3{
+    color: #706f6f;
+}
+span#l4{
+    color: #969696
+}
+span#l5{
+    color: #c2c1c1
+}
+span#l6{
+    color: #ececec
+}
