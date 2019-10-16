@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px auto;
+    min-width: 950px;
+    max-width: 950px;
+    text-align: left;
+}
+.teg{
+    color: red;
+    background-color: rgb(201, 195, 195);
+}
+h1,h3{
+    text-align: center;
+}
+.el1,.el2,.el3,.el4,.el5,.el6,.el7,.el8{
+    color: aqua;
+    background-color: rgb(201, 195, 195);
+    
+}
