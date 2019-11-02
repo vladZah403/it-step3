@@ -1,0 +1,30 @@
+.tower{
+    width: 0px;
+    height: 0px;
+    background-color: black;
+    border-right: 40px solid grey;
+    border-bottom: 80px solid grey;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+.tower::before{
+    content: ' ';
+    display: block;
+    width: 70px;
+    height: 20px;
+    background-color: grey;
+    position: relative;
+    left: -15px;
+    top: 60px;
+}
+.tower::after{
+    content: ' ';
+    display: block;
+    width: 60px;
+    height: 30px;
+    background-color: grey;
+    position: relative;
+    left: -10px;
+    top: -20px;
+}

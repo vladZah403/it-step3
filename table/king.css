@@ -1,0 +1,29 @@
+.king{
+    width: 0px;
+    height: 0px;
+    background-color: black;
+    border-right: 45px solid grey;
+    border-bottom: 80px solid grey;
+    position: relative;
+    top: 20px;
+    left: 26px;
+}
+.king::before{
+    content: ' ';
+    display: block;
+    width: 70px;
+    height: 20px;
+    background-color: grey;
+    position: relative;
+    left: -12px;
+    top: 60px;
+}
+.king::after{
+    content: ' ';
+    display: block;
+    border: 23px solid gray;
+    border-color:   grey  transparent grey transparent ;
+    position: relative;
+    top: -36px;
+    left: -1px;
+}

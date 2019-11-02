@@ -1,0 +1,29 @@
+.gueen{
+    width: 0px;
+    height: 0px;
+    background-color: black;
+    border-right: 30px solid grey;
+    border-bottom: 80px solid grey;
+    position: relative;
+    top: 20px;
+    left: 35px;
+}
+.gueen::before{
+    content: ' ';
+    display: block;
+    width: 70px;
+    height: 20px;
+    background-color: grey;
+    position: relative;
+    left: -20px;
+    top: 60px;
+}
+.gueen::after{
+    content: ' ';
+    display: block;
+    border: 15px solid gray;
+    border-color: grey transparent  grey transparent ;
+    position: relative;
+    top: -36px;
+    left: 0px;
+}
