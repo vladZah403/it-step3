@@ -1,0 +1,51 @@
+body{
+    background-color: blanchedalmond ;
+}
+td{
+    border: 3px solid black;
+    border-collapse: collapse;
+    width: 100px;
+    height: 100px;
+}
+table{
+    border-collapse: collapse;
+}
+.el{
+    border: none;
+    background-color: blanchedalmond;
+}
+body{
+    text-align: center;
+    font-size: 31px;
+}
+.Or{
+    background-color: orange;
+}
+.Bl{
+    background-color: dodgerblue;
+}
+.Dl{
+    background-color: burlywood;
+}
+.Gr2{
+    background-color: darkolivegreen;
+}
+.Gr{
+    background-color:darkgreen ;
+}
+.Pr{
+    background-color: darkorchid;
+}
+.Yl{
+    background-color: yellow ;
+}
+.gre{
+    background-color: grey;
+}
+.Pr2{
+    background-color: hotpink;
+}
+.tab2{
+    margin: 100px;
+    margin-left: 300px;
+}
